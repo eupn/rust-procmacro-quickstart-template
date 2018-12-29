@@ -4,7 +4,7 @@
 extern crate {{crate_name}};
 
 // Import procedural macro attribute
-use rust_procmacro_quickstart_template::{my_attribute, my_macro, MyDerive};
+use {{crate_name}}::{my_attribute, my_macro, MyDerive};
 
 #[my_attribute]
 struct TestAttrStruct {}
