@@ -1,7 +1,7 @@
 #![allow(dead_code)]
 
 // Import our procedural macros crate
-extern crate rust_procmacro_quickstart_template;
+extern crate {{crate-name}};
 
 // Import procedural macro attribute
 use rust_procmacro_quickstart_template::{my_attribute, my_macro, MyDerive};

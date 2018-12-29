@@ -1,0 +1,18 @@
+[package]
+name = "rust-procmacro-quickstart-template"
+version = "0.1.0"
+authors = ["Eugene P. <eupn@protonmail.com>"]
+description = "A `cargo generate` template for quick-starting a procedural macro crate"
+keywords = ["template", "proc_macro", "procmacro"]
+
+[lib]
+proc-macro = true
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[dependencies]
+quote = "0.6"
+proc-macro2 = "0.4"
+syn = { version = "0.15", features = ["full"] }
