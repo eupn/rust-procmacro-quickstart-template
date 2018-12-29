@@ -1,7 +1,7 @@
 [package]
 name = "{{crate_name}}"
 version = "0.1.0"
-authors = ["Eugene P. <eupn@protonmail.com>"]
+authors = ["{{authors}}"]
 description = "A `cargo generate` template for quick-starting a procedural macro crate"
 keywords = ["template", "proc_macro", "procmacro"]
 
