@@ -16,7 +16,7 @@ cargo generate --git https://github.com/eupn/rust-procmacro-quickstart-template 
 3. Run generated template project:
 ```bash
 cd projectname
-cargo run
+cargo build
 ```
 
 ### License
