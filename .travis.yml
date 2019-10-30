@@ -5,4 +5,5 @@ before_script:
 script:
   - cargo generate --git https://github.com/eupn/rust-procmacro-quickstart-template --name projectname
   - cd projectname
+  - cat Cargo.toml
   - cargo check
