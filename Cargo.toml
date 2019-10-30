@@ -1,18 +1,16 @@
 [package]
 name = "{{crate_name}}"
-version = "0.1.0"
+version = "0.0.0"
 authors = ["{{authors}}"]
 description = "A `cargo generate` template for quick-starting a procedural macro crate"
 keywords = ["template", "proc_macro", "procmacro"]
+edition = "2018"
 
 [lib]
 proc-macro = true
 
-[[bin]]
-name = "main"
-path = "src/main.rs"
-
 [dependencies]
-quote = "0.6"
-proc-macro2 = "0.4"
-syn = { version = "0.15", features = ["full"] }
+quote = "1"
+proc-macro2 = "1.0"
+syn = "1.0"
+
