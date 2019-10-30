@@ -1,5 +1,7 @@
 # rust-procmacro-quickstart-template
 
+[![travis-ci badge](https://api.travis-ci.com/eupn/rust-procmacro-quickstart-template.svg?branch=master)](https://travis-ci.com/eupn/rust-procmacro-quickstart-template)
+
 A base `cargo generate` template for building a 
 [procedural macro](https://doc.rust-lang.org/reference/procedural-macros.html#procedural-macros) project crate.
 
